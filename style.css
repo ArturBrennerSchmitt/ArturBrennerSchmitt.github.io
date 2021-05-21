@@ -20,6 +20,11 @@
     text-align: justify;
     
 }
+
+.divtexto{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 @media only screen and (max-width: 450px){
         .coisa{
             width: 100%;
@@ -33,4 +38,9 @@
         .slides{
             height: 130%;
         }
-    }
+
+        .divtexto{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+}
