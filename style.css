@@ -17,13 +17,19 @@
 .texto{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
     
 }
 
 .divtexto{
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.divcard{
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
 }
 @media only screen and (max-width: 450px){
         .coisa{
@@ -42,10 +48,16 @@
         }
 
         .texto{
-            font-size: 12px;
+            font-size: 18px;
             text-align: left;
         }
         .titulo{
             font-size: 42px;
+        }
+
+        .divcard{
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: center;
         }
 }
